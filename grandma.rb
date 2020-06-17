@@ -5,8 +5,10 @@ def speak_to_grandma(phrase)
   if phrase != phrase.upcase puts "HUH?! SPEAK UP, SONNY!"
 
   elsif phrase == phrase.upcase 
-    puts she'll say no, not since 1938!
-  #If phrase is exactly equal to I LOVE YOU grandma! IT WILL PRINT OUT I love you too pumpkin
+    puts "NO, NOT SINCE 1938!"
+  else phrase == "I LOVE YOU GRANDMA!" 
+    puts "I LOVE YOU TOO PUMPKIN!"
+  end
 end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
